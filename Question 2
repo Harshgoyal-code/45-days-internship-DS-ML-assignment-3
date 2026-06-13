@@ -1,0 +1,17 @@
+class Car:
+    def __init__(self, brand, model, price):
+        self.brand = brand
+        self.model = model
+        self.price = price
+
+    def display_details(self):
+        print(f"Brand: {self.brand} | Model: {self.model} | Price: {self.price}")
+
+car1 = Car("Toyota", "Fortuner", "₹35 Lakh")
+
+car2 = Car("Hyundai", "Creta", "₹10 Lakh")
+
+print("car 1 deatil")
+car1.display_details()
+print("\n car 2 detail")
+car2.display_details()
