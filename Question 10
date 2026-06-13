@@ -1,0 +1,20 @@
+class LibraryBook:
+    def __init__(self, book_name, author, price):
+        self.book_name = book_name
+        self.author = author
+        self.price = price
+
+    def display_book_info(self):
+        print(f" Book Name : {self.book_name}")
+        print(f" Author    : {self.author}")
+        print(f" Price     : ₹ {self.price}")
+        print("-" * 35)
+book1 = LibraryBook("Python Programming", "John Smith", 450)
+book2 = LibraryBook("Data Structures", "G. Karumanchi", 620)
+book3 = LibraryBook("AI & Machine Learning", "Andrew Ng", 999)
+
+print("       LIBRARY BOOK DETAILS         ")
+
+book1.display_book_info()
+book2.display_book_info()
+book3.display_book_info()
