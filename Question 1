@@ -1,0 +1,8 @@
+class student:
+    name="Harsh "
+    age=21
+    course="AI ML" 
+str=student()
+print(str.name)
+print(str.age)
+print(str.course)
